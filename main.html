@@ -10,8 +10,7 @@
             border-collapse: collapse;
         }
         th, td {
-            padding: 8px;
-            text-align: center;
+            padding: 10px;
         }
         .black-background {
             background-color: black;
@@ -20,111 +19,83 @@
     </style>
 </head>
 <body>
-
     <table>
-        <thead>
-            <tr>
-                <th>Main Table Header</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <!-- Nested Table 1 -->
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Nested Table 1</th>
-                                <th>Column 1</th>
-                                <th>Column 2</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Data 1</td>
-                                <td>Data 2</td>
-                                <td>Data 3</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-                <td>
-                    <!-- Nested Table 2 -->
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Nested Table 2</th>
-                                <th>Column 1</th>
-                                <th>Column 2</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Data A</td>
-                                <td>Data B</td>
-                                <td>Data C</td>
-                            </tr>
-                            <tr>
-                                <td class="black-background">HTML</td>
-                                <td>Data X</td>
-                                <td>Data Y</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <!-- Nested Table 3 with list -->
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Nested Table 3</th>
-                                <th>Column 1</th>
-                                <th>Column 2</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Data 4</td>
-                                <td>Data 5</td>
-                                <td>Data 6</td>
-                            </tr>
-                            <tr>
-                                <td colspan="3">
-                                    <!-- Unordered List -->
-                                    <ul>
-                                        <li>List item 1</li>
-                                        <li>List item 2</li>
-                                        <li>List item 3</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-                <td>
-                    <!-- Nested Table 4 -->
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Nested Table 4</th>
-                                <th>Column 1</th>
-                                <th>Column 2</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Data P</td>
-                                <td>Data Q</td>
-                                <td>Data R</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-        </tbody>
+        <!-- Main table -->
+        <tr>
+            <td>
+                <!-- Nested Table 1 -->
+                <table>
+                    <tr>
+                        <th>Nested Table 1</th>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                    </tr>
+                    <tr>
+                        <td>Item 1</td>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <!-- Nested Table 2 -->
+                <table>
+                    <tr>
+                        <th>Nested Table 2</th>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                    </tr>
+                    <tr>
+                        <td>Item A</td>
+                        <td>Data A</td>
+                        <td>Data B</td>
+                    </tr>
+                    <tr>
+                        <td class="black-background">HTML</td>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- Nested Table 3 -->
+                <table>
+                    <tr>
+                        <th>Nested Table 3</th>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                    </tr>
+                    <tr>
+                        <td>Item X</td>
+                        <td>Data X</td>
+                        <td>Data Y</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <!-- Nested Table 4 with List -->
+                <table>
+                    <tr>
+                        <th>Nested Table 4</th>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>List item 1</li>
+                                <li>List item 2</li>
+                                <li>List item 3</li>
+                            </ul>
+                        </td>
+                        <td>Data X</td>
+                        <td>Data Y</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
     </table>
-
 </body>
 </html>
